@@ -1,0 +1,78 @@
+$--primary-color: #E67118;
+$--text-color: rgb(84, 84, 84);
+$--gray-font-color: rgb(42, 42, 42);
+$background-clor:rgb(26, 26, 26);
+
+
+
+%flexCenter {
+    display: flex;
+    align-items: center;
+}
+
+%jaCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+%buttonItems {
+    border-radius: 50px;
+    outline: none;
+    border: none;
+}
+
+@mixin mainSize($width, $height) {
+    width: $width;
+    height: $height;
+}
+
+
+.containerSection9{
+    @extend %flexCenter;
+    @include mainSize(100%,250px );
+    background-color: $background-clor;
+    color: white;
+
+    &All{
+        @include mainSize(1180px, 200px);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 auto;
+
+        .containerSection9Item1{
+            width: 500px;
+
+
+            h2{
+               color:white;
+               font-size: 30px;
+               font-family: serif;
+            }
+
+            p{
+                color: rgb(222, 222, 222);
+                font-size: 20px;
+            }
+
+        }
+
+        .containerSection9Item2{
+            display: flex;
+            justify-content: flex-end;
+            width: 500px;
+        
+
+            button{
+                @extend %buttonItems;
+                width: 130px;
+                font-family: sans-serif;
+                color: white;
+                padding: 1rem;
+                margin-right: 5rem;
+                background-color: $--primary-color;
+            }
+        }
+    }
+}

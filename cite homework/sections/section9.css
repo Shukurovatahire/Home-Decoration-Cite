@@ -1,0 +1,50 @@
+.containerSection9 {
+  display: flex;
+  align-items: center;
+}
+
+.containerSection9All .containerSection9Item2 button {
+  border-radius: 50px;
+  outline: none;
+  border: none;
+}
+
+.containerSection9 {
+  width: 100%;
+  height: 250px;
+  background-color: rgb(26, 26, 26);
+  color: white;
+}
+.containerSection9All {
+  width: 1180px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.containerSection9All .containerSection9Item1 {
+  width: 500px;
+}
+.containerSection9All .containerSection9Item1 h2 {
+  color: white;
+  font-size: 30px;
+  font-family: serif;
+}
+.containerSection9All .containerSection9Item1 p {
+  color: rgb(222, 222, 222);
+  font-size: 20px;
+}
+.containerSection9All .containerSection9Item2 {
+  display: flex;
+  justify-content: flex-end;
+  width: 500px;
+}
+.containerSection9All .containerSection9Item2 button {
+  width: 130px;
+  font-family: sans-serif;
+  color: white;
+  padding: 1rem;
+  margin-right: 5rem;
+  background-color: #E67118;
+}/*# sourceMappingURL=section9.css.map */

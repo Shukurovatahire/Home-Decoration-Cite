@@ -1,0 +1,47 @@
+.containerInterior {
+  display: flex;
+  align-items: center;
+}
+
+.containerInterior {
+  width: 100%;
+  height: 600px;
+}
+.containerInteriorAll {
+  width: 1180px;
+  height: 500px;
+  margin: 0 auto;
+}
+.containerInteriorAll .containerInteriorTitle {
+  font-size: 25px;
+  color: #2A2A2A;
+  margin-bottom: 5rem;
+}
+.containerInteriorAll .containerInteriorGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  gap: 8rem;
+}
+.containerInteriorAll .containerInteriorGrid .containerInteriorHome,
+.containerInteriorAll .containerInteriorGrid .containerInteriorParty,
+.containerInteriorAll .containerInteriorGrid .containerInteriorOfice {
+  height: 100%;
+}
+.containerInteriorAll .containerInteriorGrid .containerInteriorHome h4,
+.containerInteriorAll .containerInteriorGrid .containerInteriorParty h4,
+.containerInteriorAll .containerInteriorGrid .containerInteriorOfice h4 {
+  font-size: 25px;
+  color: #545454;
+}
+.containerInteriorAll .containerInteriorGrid .containerInteriorHome h4:hover,
+.containerInteriorAll .containerInteriorGrid .containerInteriorParty h4:hover,
+.containerInteriorAll .containerInteriorGrid .containerInteriorOfice h4:hover {
+  color: #E67118;
+}
+.containerInteriorAll .containerInteriorGrid .containerInteriorHome p,
+.containerInteriorAll .containerInteriorGrid .containerInteriorParty p,
+.containerInteriorAll .containerInteriorGrid .containerInteriorOfice p {
+  font-size: 18px;
+  color: #545454;
+}/*# sourceMappingURL=section6.css.map */

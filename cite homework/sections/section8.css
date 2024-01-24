@@ -1,0 +1,64 @@
+.containerSection8 .containerSection8All .containerSection8Text button {
+  border-radius: 50px;
+  outline: none;
+  border: none;
+}
+
+.containerSection8 {
+  width: 100%;
+  height: 600px;
+}
+.containerSection8 .containerSection8All {
+  width: 100%;
+  height: 600px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.containerSection8 .containerSection8All .containerSection8Text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 7rem;
+  padding-right: 7rem;
+  background-color: #FCF2EB;
+}
+.containerSection8 .containerSection8All .containerSection8Text h2 {
+  font-size: 40px;
+  font-weight: 600;
+  color: rgb(42, 42, 42);
+  font-family: serif;
+}
+.containerSection8 .containerSection8All .containerSection8Text p {
+  color: rgb(42, 42, 42);
+  font-size: 20px;
+}
+.containerSection8 .containerSection8All .containerSection8Text button {
+  background-color: #E67118;
+  color: white;
+  font-weight: bold;
+  width: 150px;
+  padding: 1rem;
+}
+.containerSection8 .containerSection8All .containerSection8Photo img {
+  width: 736px;
+  height: 600px;
+  position: absolute;
+}
+.containerSection8 .containerSection8All .containerSection8Photo button {
+  position: relative;
+  border-radius: 50%;
+  background-color: white;
+  border: 1px solid #E67118;
+  width: 100px;
+  height: 100px;
+  left: 45%;
+  top: 45%;
+}
+.containerSection8 .containerSection8All .containerSection8Photo button i {
+  font-size: 1.5rem;
+  color: #E67118;
+}
+.containerSection8 .containerSection8All .containerSection8Photo button button:hover {
+  background-color: #E67118;
+  border: 1px solid white;
+}/*# sourceMappingURL=section8.css.map */

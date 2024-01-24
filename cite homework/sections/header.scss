@@ -1,0 +1,119 @@
+%flexCenter {
+    display: flex;
+    align-items: center;
+}
+
+%jaCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+%buttonItems {
+    border-radius: 50px;
+    outline: none;
+    border: none;
+}
+
+
+
+
+.header {
+    @extend %flexCenter;
+    height: 80px;
+
+
+    .headerContainer {
+        @extend %flexCenter;
+        width: 1180px;
+        height: 50px;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+
+    &Navbar {
+        width: 400px;
+
+
+        ul {
+            @extend %flexCenter;
+            list-style: none;
+            font-size: 1.5rem;
+            text-align: left;
+            gap: 2rem;
+        }
+    }
+
+
+    &Main {
+        width: 300px;
+        font-size: 2rem;
+        font-weight: normal;
+        text-align: center;
+        font-family: "Gill Sans", sans-serif;
+        ;
+    }
+
+
+    &Info {
+        width: 400px;
+
+        ul {
+            @extend %flexCenter;
+            list-style: none;
+            font-size: 1.5rem;
+            gap: 2rem;
+        }
+
+        button {
+            @extend%buttonItems;
+            background-color: #E67118;
+            font-size: 18px;
+            padding: 13px 25px;
+            color: white;
+        }
+    }
+}
+
+
+
+.mainContainer {
+
+
+
+    &Wapper {
+        @extend %flexCenter;
+        background-image: url(https://preview.colorlib.com/theme/franclin/assets/img/hero/h1_hero.jpg.webp);
+        background-position-x: center;
+        background-position-y: center;
+        height: 800px;
+        width: 100%;
+
+
+        &Text {
+            @extend %jaCenter;
+            width: 100%;
+            height: 800px;
+            color: white;
+            font-size: 25px;
+            flex-direction: column;
+            text-align: center;
+
+
+            h1 {
+                width: 600px;
+
+            }
+
+            button {
+                @extend %buttonItems;
+                background-color: rgb(42, 42, 42);
+                color: white;
+                border-radius: 50px;
+                padding: 20px 30px;
+
+            }
+        }
+    }
+}
+

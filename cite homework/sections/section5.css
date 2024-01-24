@@ -1,0 +1,66 @@
+.containerEvalution .containerEvalutionAll .containerEvalutionText .containerEvalutionTextFlex button {
+  border-radius: 50px;
+  outline: none;
+  border: none;
+}
+
+.containerEvalution {
+  width: 100%;
+  height: 800px;
+}
+.containerEvalution .containerEvalutionAll {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.containerEvalution .containerEvalutionAll .containerEvalutionPhoto img {
+  max-width: 100%;
+  height: 700px;
+}
+.containerEvalution .containerEvalutionAll .containerEvalutionText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.containerEvalution .containerEvalutionAll .containerEvalutionText .containerEvalutionTextFlex {
+  width: 500px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+}
+.containerEvalution .containerEvalutionAll .containerEvalutionText .containerEvalutionTextFlex .prices {
+  display: flex;
+  gap: 2rem;
+}
+.containerEvalution .containerEvalutionAll .containerEvalutionText .containerEvalutionTextFlex .prices .budget {
+  width: 70px;
+  height: 100px;
+  color: #E67118;
+  font-weight: bold;
+}
+.containerEvalution .containerEvalutionAll .containerEvalutionText .containerEvalutionTextFlex .prices .styles {
+  width: 100px;
+  height: 100px;
+  font-weight: bold;
+  color: #E67118;
+}
+.containerEvalution .containerEvalutionAll .containerEvalutionText .containerEvalutionTextFlex h2 {
+  font-size: 50px;
+  font-weight: normal;
+}
+.containerEvalution .containerEvalutionAll .containerEvalutionText .containerEvalutionTextFlex p {
+  font-size: 20px;
+  color: #545454;
+}
+.containerEvalution .containerEvalutionAll .containerEvalutionText .containerEvalutionTextFlex ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  gap: 5px;
+}
+.containerEvalution .containerEvalutionAll .containerEvalutionText .containerEvalutionTextFlex button {
+  background-color: #2A2A2A;
+  color: white;
+  margin-top: 2rem;
+  width: 150px;
+  padding: 15px;
+}/*# sourceMappingURL=section5.css.map */

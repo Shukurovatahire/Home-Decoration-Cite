@@ -1,0 +1,68 @@
+
+%flexCenter {
+    display: flex;
+    align-items: center;
+}
+
+%jaCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+%buttonItems {
+    border-radius: 50px;
+    outline: none;
+    border: none;
+}
+
+
+.containerDesingArea {
+    width: 100%;
+    height: 600px;
+    background-color: rgb(252, 242, 235);
+
+
+    &All {
+        display: flex;
+        width: 1180px;
+        margin: 0 auto;
+
+
+        .containerDesingAreaText {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            margin-right: 7rem;
+            flex-grow: 1;
+            width: 400px;
+
+            h2 {
+                color: rgb(42, 42, 42);
+                font-size: 50px;
+            }
+
+            p {
+                font-size: 20px;
+            }
+
+            button {
+                @extend %buttonItems;
+                width: 150px;
+                padding: 1rem;
+                background-color: rgb(252, 242, 235);
+                border: 2px solid #E67118 !important;
+
+            }
+
+        }
+
+        .containerDesingAreaPhoto {
+            flex-grow: 1;
+            width: 400px;
+            margin-left: 4rem;
+
+        }
+    }
+
+}

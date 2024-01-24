@@ -1,0 +1,108 @@
+
+@mixin sizes($value, $color) {
+    font-size: $value;
+    color: $color;
+}
+
+$--primary-color: #E67118;
+$--text-color:rgb(84, 84, 84);
+
+
+
+%flexCenter {
+    display: flex;
+    align-items: center;
+}
+
+%jaCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+%buttonItems {
+    border-radius: 50px;
+    outline: none;
+    border: none;
+}
+
+@mixin mainSize($width, $height) {
+    width: $width;
+    height: $height;
+}
+
+.containerCustomer {
+    @extend %flexCenter;
+    @include mainSize(100%, 800px);
+    background-color: #F1C4A3;
+
+    .containerCustomerAll {
+        @include mainSize(1180px, 700px);
+        margin: 0 auto;
+
+
+        .containerCustomerTitle {
+            font-size: 20px;
+            text-align: center;
+            margin-bottom: 4rem;
+
+        }
+
+        .containerCustomerGrid {
+            display: grid;
+            height: 400px;
+            gap: 2rem;
+            grid-template-columns: repeat(4, 1fr);
+            justify-content: center;
+
+
+            .containerCustomerItem {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                background-color: white;
+                padding: 50px 35px 40px 35px;
+
+                ul {
+                    list-style: none;
+                    display: flex;
+                    padding: 0;
+                    color:$--primary-color;
+                    gap: 5px;
+                }
+
+                h4 {
+                    font-size: 20px;
+                    font-weight: 500;
+                    font-family: Jost, sans-serif;
+                }
+
+                h4:hover{
+                    color: $--primary-color;
+                }
+
+                p {
+                    font-size: 18px;
+                    color:$--text-color;
+
+                }
+
+                a {
+                    font-size: 15px;
+                    color:$--text-color;
+                }
+
+                a:hover{
+                    color: $--primary-color;
+                }
+
+                span {
+                    font-size: 20px;
+                    padding: 5px;
+                }
+
+            }
+        }
+    }
+
+}

@@ -1,0 +1,109 @@
+@mixin sizes($value, $color) {
+    font-size: $value;
+    color: $color;
+}
+
+$--primary-color: #E67118;
+$--text-color: rgb(84, 84, 84);
+$--gray-font-color: rgb(42, 42, 42);
+
+
+
+%flexCenter {
+    display: flex;
+    align-items: center;
+}
+
+%jaCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+%buttonItems {
+    border-radius: 50px;
+    outline: none;
+    border: none;
+}
+
+@mixin mainSize($width, $height) {
+    width: $width;
+    height: $height;
+}
+
+
+.containerSection8 {
+    @include mainSize(100%, 600px);
+   
+    .containerSection8All {
+        @include mainSize(100%, 600px);
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+
+        .containerSection8Text {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding-left: 7rem;
+            padding-right: 7rem;
+            background-color: #FCF2EB;
+
+            h2 {
+                font-size: 40px;
+                font-weight: 600;
+                color: $--gray-font-color;
+                font-family: serif;
+            }
+
+            p {
+                color: $--gray-font-color;
+                font-size: 20px;
+            }
+
+            button {
+                @extend %buttonItems;
+                background-color: $--primary-color;
+                color: white;
+                font-weight: bold;
+                width: 150px;
+                padding: 1rem;
+            }
+
+        }
+
+        .containerSection8Photo {
+
+
+            img {
+                width: 736px;
+                height: 600px;
+                position: absolute;
+            }
+
+            button{
+                position: relative;
+                border-radius: 50%;
+                background-color: white;
+                border: 1px solid $--primary-color;
+                width: 100px;
+                height: 100px;
+                left: 45%;
+                top: 45%;
+
+                i{
+                    font-size: 1.5rem;
+                    color: $--primary-color;
+                }
+
+                button:hover{
+                    background-color: $--primary-color;
+                    border: 1px solid white;
+
+                    // bu kod islemedi :(
+                        
+                }
+            }
+        }
+    }
+}

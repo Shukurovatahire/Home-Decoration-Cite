@@ -1,0 +1,42 @@
+.containerLogos .containerLogosAll {
+  display: flex;
+  align-items: center;
+}
+
+.containerLogos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerLogos {
+  width: 1180px;
+  height: 700px;
+  margin: 0 auto;
+}
+.containerLogos .containerLogosAll {
+  flex-direction: column;
+  height: 400px;
+}
+.containerLogos .containerLogosAll .containerLogosPhoto {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 30px;
+}
+.containerLogos .containerLogosAll .containerLogosPhoto img {
+  width: 200px;
+  height: 80px;
+}
+.containerLogos .containerLogosAll .containerLogosText {
+  height: 300px;
+  width: 900px;
+}
+.containerLogos .containerLogosAll .containerLogosText h2 {
+  text-align: center;
+  font-size: 35px;
+}
+.containerLogos .containerLogosAll .containerLogosText p {
+  text-align: center;
+  font-size: 20px;
+  color: #656565;
+}/*# sourceMappingURL=section4.css.map */

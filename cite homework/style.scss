@@ -1,0 +1,195 @@
+@import "./sections/header.scss";
+@import './sections/section2.scss';
+@import './sections/section3.scss';
+@import './sections/section4.scss';
+@import './sections/section5.scss';
+@import "./sections/section6.scss";
+@import './sections/section7.scss';
+@import './sections/section8.scss';
+@import './sections/section9.scss';
+
+@mixin sizes($value, $color) {
+    font-size: $value;
+    color: $color;
+}
+
+$--primary-color: #E67118;
+$--text-color: rgb(84, 84, 84);
+$--gray-font-color: rgb(42, 42, 42);
+$background-clor: rgb(26, 26, 26);
+
+
+
+%flexCenter {
+    display: flex;
+    align-items: center;
+}
+
+%jaCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+%flexItems {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+%buttonItems {
+    border-radius: 50px;
+    outline: none;
+    border: none;
+}
+
+@mixin mainSize($width, $height) {
+    width: $width;
+    height: $height;
+}
+
+.containerFooter {
+    @include mainSize(100%, 500px);
+    background-color: rgb(245, 246, 247);
+    @extend %flexCenter;
+
+    &All {
+        @include mainSize(1180px, 300px);
+        display: flex;
+        margin: 0 auto;
+        justify-content: space-evenly;
+
+        .containerFooterItem1 {
+            @extend %flexItems;
+
+            img {
+                @include mainSize(160px, 30px)
+            }
+
+            p {
+                color: $--gray-font-color;
+                width: 300px;
+
+            }
+
+            span {
+                font-size: 25px;
+                color: $--primary-color
+            }
+
+            span:hover {
+                text-decoration: underline
+            }
+
+            a {
+                text-decoration: none;
+                color: $--gray-font-color;
+                margin-top: -2rem;
+            }
+
+            ul {
+                display: flex;
+                list-style: none;
+                color: #5E5E5E;
+                padding: 0;
+                gap: .5rem;
+            }
+
+        }
+
+        .containerFooterItem2 {
+            @extend %flexItems;
+            width: 250px;
+
+            h2 {
+                margin: 0;
+            }
+
+            ul {
+                list-style: none;
+                color: $--gray-font-color;
+                padding: 0;
+            }
+
+            li {
+                margin-bottom: 1rem;
+            }
+
+
+            li:hover {
+                text-decoration: underline;
+            }
+        }
+
+        .containerFooterItem3 {
+            @extend %flexItems;
+            width: 250px;
+
+            h2 {
+                margin: 0;
+            }
+
+            ul {
+                list-style: none;
+                color: $--gray-font-color;
+                margin-bottom: 1rem;
+                padding: 0;
+            }
+
+            li {
+                margin-bottom: 1rem;
+            }
+
+            li:hover {
+                text-decoration: underline;
+            }
+        }
+
+        .containerFooterItem4 {
+            @extend %flexItems;
+
+            h2 {
+                margin: 0;
+            }
+
+            p {
+                color: $--gray-font-color;
+            }
+
+            input {
+                width: 413px;
+                height: 50px;
+                padding-left: 1rem;
+                border-radius: 50px;
+                border: none;
+                border: 1px solid $--primary-color;
+            }
+
+        }
+    }
+
+}
+
+.containerFooter2 {
+    @include mainSize(100%, 50px);
+    background-color: rgb(245, 246, 247);
+
+    .footercoyright {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        gap: .5rem;
+        color: $--gray-font-color;
+
+       a{
+            border-left: 1px solid black;
+            padding-left: .5rem ;
+        }
+
+        span,i{
+            color: $--primary-color;
+        }
+    }
+
+}

@@ -1,0 +1,81 @@
+.mainContainerWapper, .headerInfo ul, .headerNavbar ul, .header .headerContainer, .header {
+  display: flex;
+  align-items: center;
+}
+
+.mainContainerWapperText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainContainerWapperText button, .headerInfo button {
+  border-radius: 50px;
+  outline: none;
+  border: none;
+}
+
+.header {
+  height: 80px;
+}
+.header .headerContainer {
+  width: 1180px;
+  height: 50px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.headerNavbar {
+  width: 400px;
+}
+.headerNavbar ul {
+  list-style: none;
+  font-size: 1.5rem;
+  text-align: left;
+  gap: 2rem;
+}
+.headerMain {
+  width: 300px;
+  font-size: 2rem;
+  font-weight: normal;
+  text-align: center;
+  font-family: "Gill Sans", sans-serif;
+}
+.headerInfo {
+  width: 400px;
+}
+.headerInfo ul {
+  list-style: none;
+  font-size: 1.5rem;
+  gap: 2rem;
+}
+.headerInfo button {
+  background-color: #E67118;
+  font-size: 18px;
+  padding: 13px 25px;
+  color: white;
+}
+
+.mainContainerWapper {
+  background-image: url(https://preview.colorlib.com/theme/franclin/assets/img/hero/h1_hero.jpg.webp);
+  background-position-x: center;
+  background-position-y: center;
+  height: 800px;
+  width: 100%;
+}
+.mainContainerWapperText {
+  width: 100%;
+  height: 800px;
+  color: white;
+  font-size: 25px;
+  flex-direction: column;
+  text-align: center;
+}
+.mainContainerWapperText h1 {
+  width: 600px;
+}
+.mainContainerWapperText button {
+  background-color: rgb(42, 42, 42);
+  color: white;
+  border-radius: 50px;
+  padding: 20px 30px;
+}/*# sourceMappingURL=header.css.map */

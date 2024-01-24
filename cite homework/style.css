@@ -1,0 +1,753 @@
+.containerFooter, .containerSection9, .containerCustomer, .containerInterior, .containerLogos .containerLogosAll, .mainContainerWapper, .headerInfo ul, .headerNavbar ul, .header .headerContainer, .header {
+  display: flex;
+  align-items: center;
+}
+
+.containerLogos, .section2 .containerAboutNumber, .section2 .containerAbout, .mainContainerWapperText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerSection9All .containerSection9Item2 button, .containerSection8 .containerSection8All .containerSection8Text button, .containerEvalution .containerEvalutionAll .containerEvalutionText .containerEvalutionTextFlex button, .containerDesingAreaAll .containerDesingAreaText button, .section2 .containerAbout .containerAboutText button, .mainContainerWapperText button, .headerInfo button {
+  border-radius: 50px;
+  outline: none;
+  border: none;
+}
+
+.header {
+  height: 80px;
+}
+.header .headerContainer {
+  width: 1180px;
+  height: 50px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.headerNavbar {
+  width: 400px;
+}
+.headerNavbar ul {
+  list-style: none;
+  font-size: 1.5rem;
+  text-align: left;
+  gap: 2rem;
+}
+.headerMain {
+  width: 300px;
+  font-size: 2rem;
+  font-weight: normal;
+  text-align: center;
+  font-family: "Gill Sans", sans-serif;
+}
+.headerInfo {
+  width: 400px;
+}
+.headerInfo ul {
+  list-style: none;
+  font-size: 1.5rem;
+  gap: 2rem;
+}
+.headerInfo button {
+  background-color: #E67118;
+  font-size: 18px;
+  padding: 13px 25px;
+  color: white;
+}
+
+.mainContainerWapper {
+  background-image: url(https://preview.colorlib.com/theme/franclin/assets/img/hero/h1_hero.jpg.webp);
+  background-position-x: center;
+  background-position-y: center;
+  height: 800px;
+  width: 100%;
+}
+.mainContainerWapperText {
+  width: 100%;
+  height: 800px;
+  color: white;
+  font-size: 25px;
+  flex-direction: column;
+  text-align: center;
+}
+.mainContainerWapperText h1 {
+  width: 600px;
+}
+.mainContainerWapperText button {
+  background-color: rgb(42, 42, 42);
+  color: white;
+  border-radius: 50px;
+  padding: 20px 30px;
+}
+
+.containerFooter, .containerSection9, .containerCustomer, .containerInterior, .containerLogos .containerLogosAll, .header, .header .headerContainer, .headerNavbar ul, .headerInfo ul, .mainContainerWapper {
+  display: flex;
+  align-items: center;
+}
+
+.containerLogos, .section2 .containerAboutNumber, .section2 .containerAbout, .mainContainerWapperText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerSection9All .containerSection9Item2 button, .containerSection8 .containerSection8All .containerSection8Text button, .containerEvalution .containerEvalutionAll .containerEvalutionText .containerEvalutionTextFlex button, .containerDesingAreaAll .containerDesingAreaText button, .section2 .containerAbout .containerAboutText button, .headerInfo button, .mainContainerWapperText button {
+  border-radius: 50px;
+  outline: none;
+  border: none;
+}
+
+.section2 {
+  width: 100%;
+  height: 500px;
+}
+.section2 .containerAbout {
+  width: 1180px;
+  height: 500px;
+  margin: 0 auto;
+}
+.section2 .containerAbout .containerAboutText {
+  color: rgb(84, 84, 84);
+  font-size: 20px;
+  font-weight: 400;
+}
+.section2 .containerAbout .containerAboutText button {
+  padding: 17px 35px 16px 33px;
+  background-color: #E67118;
+  font-size: 18px;
+  color: white;
+}
+.section2 .containerAboutNumber {
+  flex-direction: column;
+  margin-right: 4rem;
+  width: 600px;
+  height: 400px;
+  gap: 2rem;
+}
+.section2 .containerAboutNumberTitle {
+  font-weight: 900;
+  margin-bottom: -5rem;
+  color: rgb(42, 42, 42);
+}
+.section2 .containerAboutNumberAll {
+  display: flex;
+  gap: 2rem;
+}
+.section2 .containerAboutNumberAll .containerAboutNumber1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 280px;
+  height: 300px;
+}
+.section2 .containerAboutNumberAll .containerAboutNumber1 span {
+  color: #E67118;
+  font-size: 3rem;
+  font-weight: bolder;
+}
+.section2 .containerAboutNumberAll .containerAboutNumber1 p {
+  font-size: 22px;
+  line-height: 1.4;
+  color: #132E43;
+}
+.section2 .containerAboutNumberAll .containerAboutNumber2 {
+  width: 250px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.section2 .containerAboutNumberAll .containerAboutNumber2 span {
+  color: #E67118;
+  font-size: 3rem;
+  font-weight: bolder;
+}
+.section2 .containerAboutNumberAll .containerAboutNumber2 p {
+  font-size: 22px;
+  line-height: 1.4;
+  color: #132E43;
+}
+
+.containerFooter, .containerSection9, .containerCustomer, .containerInterior, .containerLogos .containerLogosAll, .header, .header .headerContainer, .headerNavbar ul, .headerInfo ul, .mainContainerWapper {
+  display: flex;
+  align-items: center;
+}
+
+.containerLogos, .mainContainerWapperText, .section2 .containerAbout, .section2 .containerAboutNumber {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerSection9All .containerSection9Item2 button, .containerSection8 .containerSection8All .containerSection8Text button, .containerEvalution .containerEvalutionAll .containerEvalutionText .containerEvalutionTextFlex button, .containerDesingAreaAll .containerDesingAreaText button, .headerInfo button, .mainContainerWapperText button, .section2 .containerAbout .containerAboutText button {
+  border-radius: 50px;
+  outline: none;
+  border: none;
+}
+
+.containerDesingArea {
+  width: 100%;
+  height: 600px;
+  background-color: rgb(252, 242, 235);
+}
+.containerDesingAreaAll {
+  display: flex;
+  width: 1180px;
+  margin: 0 auto;
+}
+.containerDesingAreaAll .containerDesingAreaText {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-right: 7rem;
+  flex-grow: 1;
+  width: 400px;
+}
+.containerDesingAreaAll .containerDesingAreaText h2 {
+  color: rgb(42, 42, 42);
+  font-size: 50px;
+}
+.containerDesingAreaAll .containerDesingAreaText p {
+  font-size: 20px;
+}
+.containerDesingAreaAll .containerDesingAreaText button {
+  width: 150px;
+  padding: 1rem;
+  background-color: rgb(252, 242, 235);
+  border: 2px solid #E67118 !important;
+}
+.containerDesingAreaAll .containerDesingAreaPhoto {
+  flex-grow: 1;
+  width: 400px;
+  margin-left: 4rem;
+}
+
+.containerFooter, .containerSection9, .containerCustomer, .containerInterior, .containerLogos .containerLogosAll, .header, .header .headerContainer, .headerNavbar ul, .headerInfo ul, .mainContainerWapper {
+  display: flex;
+  align-items: center;
+}
+
+.containerLogos, .mainContainerWapperText, .section2 .containerAbout, .section2 .containerAboutNumber {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerSection9All .containerSection9Item2 button, .containerSection8 .containerSection8All .containerSection8Text button, .containerEvalution .containerEvalutionAll .containerEvalutionText .containerEvalutionTextFlex button, .headerInfo button, .mainContainerWapperText button, .section2 .containerAbout .containerAboutText button, .containerDesingAreaAll .containerDesingAreaText button {
+  border-radius: 50px;
+  outline: none;
+  border: none;
+}
+
+.containerLogos {
+  width: 1180px;
+  height: 700px;
+  margin: 0 auto;
+}
+.containerLogos .containerLogosAll {
+  flex-direction: column;
+  height: 400px;
+}
+.containerLogos .containerLogosAll .containerLogosPhoto {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 30px;
+}
+.containerLogos .containerLogosAll .containerLogosPhoto img {
+  width: 200px;
+  height: 80px;
+}
+.containerLogos .containerLogosAll .containerLogosText {
+  height: 300px;
+  width: 900px;
+}
+.containerLogos .containerLogosAll .containerLogosText h2 {
+  text-align: center;
+  font-size: 35px;
+}
+.containerLogos .containerLogosAll .containerLogosText p {
+  text-align: center;
+  font-size: 20px;
+  color: #656565;
+}
+
+.containerFooter, .containerSection9, .containerCustomer, .containerInterior, .header, .header .headerContainer, .headerNavbar ul, .headerInfo ul, .mainContainerWapper, .containerLogos .containerLogosAll {
+  display: flex;
+  align-items: center;
+}
+
+.mainContainerWapperText, .section2 .containerAbout, .section2 .containerAboutNumber, .containerLogos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerSection9All .containerSection9Item2 button, .containerSection8 .containerSection8All .containerSection8Text button, .containerEvalution .containerEvalutionAll .containerEvalutionText .containerEvalutionTextFlex button, .headerInfo button, .mainContainerWapperText button, .section2 .containerAbout .containerAboutText button, .containerDesingAreaAll .containerDesingAreaText button {
+  border-radius: 50px;
+  outline: none;
+  border: none;
+}
+
+.containerEvalution {
+  width: 100%;
+  height: 800px;
+}
+.containerEvalution .containerEvalutionAll {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.containerEvalution .containerEvalutionAll .containerEvalutionPhoto img {
+  max-width: 100%;
+  height: 700px;
+}
+.containerEvalution .containerEvalutionAll .containerEvalutionText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.containerEvalution .containerEvalutionAll .containerEvalutionText .containerEvalutionTextFlex {
+  width: 500px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+}
+.containerEvalution .containerEvalutionAll .containerEvalutionText .containerEvalutionTextFlex .prices {
+  display: flex;
+  gap: 2rem;
+}
+.containerEvalution .containerEvalutionAll .containerEvalutionText .containerEvalutionTextFlex .prices .budget {
+  width: 70px;
+  height: 100px;
+  color: #E67118;
+  font-weight: bold;
+}
+.containerEvalution .containerEvalutionAll .containerEvalutionText .containerEvalutionTextFlex .prices .styles {
+  width: 100px;
+  height: 100px;
+  font-weight: bold;
+  color: #E67118;
+}
+.containerEvalution .containerEvalutionAll .containerEvalutionText .containerEvalutionTextFlex h2 {
+  font-size: 50px;
+  font-weight: normal;
+}
+.containerEvalution .containerEvalutionAll .containerEvalutionText .containerEvalutionTextFlex p {
+  font-size: 20px;
+  color: #545454;
+}
+.containerEvalution .containerEvalutionAll .containerEvalutionText .containerEvalutionTextFlex ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  gap: 5px;
+}
+.containerEvalution .containerEvalutionAll .containerEvalutionText .containerEvalutionTextFlex button {
+  background-color: #2A2A2A;
+  color: white;
+  margin-top: 2rem;
+  width: 150px;
+  padding: 15px;
+}
+
+.containerFooter, .containerSection9, .containerCustomer, .containerInterior, .header, .header .headerContainer, .headerNavbar ul, .headerInfo ul, .mainContainerWapper, .containerLogos .containerLogosAll {
+  display: flex;
+  align-items: center;
+}
+
+.mainContainerWapperText, .section2 .containerAbout, .section2 .containerAboutNumber, .containerLogos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerSection9All .containerSection9Item2 button, .containerSection8 .containerSection8All .containerSection8Text button, .headerInfo button, .mainContainerWapperText button, .section2 .containerAbout .containerAboutText button, .containerDesingAreaAll .containerDesingAreaText button, .containerEvalution .containerEvalutionAll .containerEvalutionText .containerEvalutionTextFlex button {
+  border-radius: 50px;
+  outline: none;
+  border: none;
+}
+
+.containerInterior {
+  width: 100%;
+  height: 600px;
+}
+.containerInteriorAll {
+  width: 1180px;
+  height: 500px;
+  margin: 0 auto;
+}
+.containerInteriorAll .containerInteriorTitle {
+  font-size: 25px;
+  color: #2A2A2A;
+  margin-bottom: 5rem;
+}
+.containerInteriorAll .containerInteriorGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  gap: 8rem;
+}
+.containerInteriorAll .containerInteriorGrid .containerInteriorHome,
+.containerInteriorAll .containerInteriorGrid .containerInteriorParty,
+.containerInteriorAll .containerInteriorGrid .containerInteriorOfice {
+  height: 100%;
+}
+.containerInteriorAll .containerInteriorGrid .containerInteriorHome h4,
+.containerInteriorAll .containerInteriorGrid .containerInteriorParty h4,
+.containerInteriorAll .containerInteriorGrid .containerInteriorOfice h4 {
+  font-size: 25px;
+  color: #545454;
+}
+.containerInteriorAll .containerInteriorGrid .containerInteriorHome h4:hover,
+.containerInteriorAll .containerInteriorGrid .containerInteriorParty h4:hover,
+.containerInteriorAll .containerInteriorGrid .containerInteriorOfice h4:hover {
+  color: #E67118;
+}
+.containerInteriorAll .containerInteriorGrid .containerInteriorHome p,
+.containerInteriorAll .containerInteriorGrid .containerInteriorParty p,
+.containerInteriorAll .containerInteriorGrid .containerInteriorOfice p {
+  font-size: 18px;
+  color: #545454;
+}
+
+.containerFooter, .containerSection9, .containerCustomer, .header, .header .headerContainer, .headerNavbar ul, .headerInfo ul, .mainContainerWapper, .containerLogos .containerLogosAll, .containerInterior {
+  display: flex;
+  align-items: center;
+}
+
+.mainContainerWapperText, .section2 .containerAbout, .section2 .containerAboutNumber, .containerLogos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerSection9All .containerSection9Item2 button, .containerSection8 .containerSection8All .containerSection8Text button, .headerInfo button, .mainContainerWapperText button, .section2 .containerAbout .containerAboutText button, .containerDesingAreaAll .containerDesingAreaText button, .containerEvalution .containerEvalutionAll .containerEvalutionText .containerEvalutionTextFlex button {
+  border-radius: 50px;
+  outline: none;
+  border: none;
+}
+
+.containerCustomer {
+  width: 100%;
+  height: 800px;
+  background-color: #F1C4A3;
+}
+.containerCustomer .containerCustomerAll {
+  width: 1180px;
+  height: 700px;
+  margin: 0 auto;
+}
+.containerCustomer .containerCustomerAll .containerCustomerTitle {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+.containerCustomer .containerCustomerAll .containerCustomerGrid {
+  display: grid;
+  height: 400px;
+  gap: 2rem;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+}
+.containerCustomer .containerCustomerAll .containerCustomerGrid .containerCustomerItem {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+  padding: 50px 35px 40px 35px;
+}
+.containerCustomer .containerCustomerAll .containerCustomerGrid .containerCustomerItem ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  color: #E67118;
+  gap: 5px;
+}
+.containerCustomer .containerCustomerAll .containerCustomerGrid .containerCustomerItem h4 {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: Jost, sans-serif;
+}
+.containerCustomer .containerCustomerAll .containerCustomerGrid .containerCustomerItem h4:hover {
+  color: #E67118;
+}
+.containerCustomer .containerCustomerAll .containerCustomerGrid .containerCustomerItem p {
+  font-size: 18px;
+  color: rgb(84, 84, 84);
+}
+.containerCustomer .containerCustomerAll .containerCustomerGrid .containerCustomerItem a {
+  font-size: 15px;
+  color: rgb(84, 84, 84);
+}
+.containerCustomer .containerCustomerAll .containerCustomerGrid .containerCustomerItem a:hover {
+  color: #E67118;
+}
+.containerCustomer .containerCustomerAll .containerCustomerGrid .containerCustomerItem span {
+  font-size: 20px;
+  padding: 5px;
+}
+
+.containerFooter, .containerSection9, .header, .header .headerContainer, .headerNavbar ul, .headerInfo ul, .mainContainerWapper, .containerLogos .containerLogosAll, .containerInterior, .containerCustomer {
+  display: flex;
+  align-items: center;
+}
+
+.mainContainerWapperText, .section2 .containerAbout, .section2 .containerAboutNumber, .containerLogos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerSection9All .containerSection9Item2 button, .containerSection8 .containerSection8All .containerSection8Text button, .headerInfo button, .mainContainerWapperText button, .section2 .containerAbout .containerAboutText button, .containerDesingAreaAll .containerDesingAreaText button, .containerEvalution .containerEvalutionAll .containerEvalutionText .containerEvalutionTextFlex button {
+  border-radius: 50px;
+  outline: none;
+  border: none;
+}
+
+.containerSection8 {
+  width: 100%;
+  height: 600px;
+}
+.containerSection8 .containerSection8All {
+  width: 100%;
+  height: 600px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.containerSection8 .containerSection8All .containerSection8Text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 7rem;
+  padding-right: 7rem;
+  background-color: #FCF2EB;
+}
+.containerSection8 .containerSection8All .containerSection8Text h2 {
+  font-size: 40px;
+  font-weight: 600;
+  color: rgb(42, 42, 42);
+  font-family: serif;
+}
+.containerSection8 .containerSection8All .containerSection8Text p {
+  color: rgb(42, 42, 42);
+  font-size: 20px;
+}
+.containerSection8 .containerSection8All .containerSection8Text button {
+  background-color: #E67118;
+  color: white;
+  font-weight: bold;
+  width: 150px;
+  padding: 1rem;
+}
+.containerSection8 .containerSection8All .containerSection8Photo img {
+  width: 736px;
+  height: 600px;
+  position: absolute;
+}
+.containerSection8 .containerSection8All .containerSection8Photo button {
+  position: relative;
+  border-radius: 50%;
+  background-color: white;
+  border: 1px solid #E67118;
+  width: 100px;
+  height: 100px;
+  left: 45%;
+  top: 45%;
+}
+.containerSection8 .containerSection8All .containerSection8Photo button i {
+  font-size: 1.5rem;
+  color: #E67118;
+}
+.containerSection8 .containerSection8All .containerSection8Photo button button:hover {
+  background-color: #E67118;
+  border: 1px solid white;
+}
+
+.containerFooter, .containerSection9, .header, .header .headerContainer, .headerNavbar ul, .headerInfo ul, .mainContainerWapper, .containerLogos .containerLogosAll, .containerInterior, .containerCustomer {
+  display: flex;
+  align-items: center;
+}
+
+.mainContainerWapperText, .section2 .containerAbout, .section2 .containerAboutNumber, .containerLogos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerSection9All .containerSection9Item2 button, .headerInfo button, .mainContainerWapperText button, .section2 .containerAbout .containerAboutText button, .containerDesingAreaAll .containerDesingAreaText button, .containerEvalution .containerEvalutionAll .containerEvalutionText .containerEvalutionTextFlex button, .containerSection8 .containerSection8All .containerSection8Text button {
+  border-radius: 50px;
+  outline: none;
+  border: none;
+}
+
+.containerSection9 {
+  width: 100%;
+  height: 250px;
+  background-color: rgb(26, 26, 26);
+  color: white;
+}
+.containerSection9All {
+  width: 1180px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.containerSection9All .containerSection9Item1 {
+  width: 500px;
+}
+.containerSection9All .containerSection9Item1 h2 {
+  color: white;
+  font-size: 30px;
+  font-family: serif;
+}
+.containerSection9All .containerSection9Item1 p {
+  color: rgb(222, 222, 222);
+  font-size: 20px;
+}
+.containerSection9All .containerSection9Item2 {
+  display: flex;
+  justify-content: flex-end;
+  width: 500px;
+}
+.containerSection9All .containerSection9Item2 button {
+  width: 130px;
+  font-family: sans-serif;
+  color: white;
+  padding: 1rem;
+  margin-right: 5rem;
+  background-color: #E67118;
+}
+
+.containerFooter, .header, .header .headerContainer, .headerNavbar ul, .headerInfo ul, .mainContainerWapper, .containerLogos .containerLogosAll, .containerInterior, .containerCustomer, .containerSection9 {
+  display: flex;
+  align-items: center;
+}
+
+.mainContainerWapperText, .section2 .containerAbout, .section2 .containerAboutNumber, .containerLogos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerFooterAll .containerFooterItem4, .containerFooterAll .containerFooterItem3, .containerFooterAll .containerFooterItem2, .containerFooterAll .containerFooterItem1 {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.headerInfo button, .mainContainerWapperText button, .section2 .containerAbout .containerAboutText button, .containerDesingAreaAll .containerDesingAreaText button, .containerEvalution .containerEvalutionAll .containerEvalutionText .containerEvalutionTextFlex button, .containerSection8 .containerSection8All .containerSection8Text button, .containerSection9All .containerSection9Item2 button {
+  border-radius: 50px;
+  outline: none;
+  border: none;
+}
+
+.containerFooter {
+  width: 100%;
+  height: 500px;
+  background-color: rgb(245, 246, 247);
+}
+.containerFooterAll {
+  width: 1180px;
+  height: 300px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-evenly;
+}
+.containerFooterAll .containerFooterItem1 img {
+  width: 160px;
+  height: 30px;
+}
+.containerFooterAll .containerFooterItem1 p {
+  color: rgb(42, 42, 42);
+  width: 300px;
+}
+.containerFooterAll .containerFooterItem1 span {
+  font-size: 25px;
+  color: #E67118;
+}
+.containerFooterAll .containerFooterItem1 span:hover {
+  text-decoration: underline;
+}
+.containerFooterAll .containerFooterItem1 a {
+  text-decoration: none;
+  color: rgb(42, 42, 42);
+  margin-top: -2rem;
+}
+.containerFooterAll .containerFooterItem1 ul {
+  display: flex;
+  list-style: none;
+  color: #5E5E5E;
+  padding: 0;
+  gap: 0.5rem;
+}
+.containerFooterAll .containerFooterItem2 {
+  width: 250px;
+}
+.containerFooterAll .containerFooterItem2 h2 {
+  margin: 0;
+}
+.containerFooterAll .containerFooterItem2 ul {
+  list-style: none;
+  color: rgb(42, 42, 42);
+  padding: 0;
+}
+.containerFooterAll .containerFooterItem2 li {
+  margin-bottom: 1rem;
+}
+.containerFooterAll .containerFooterItem2 li:hover {
+  text-decoration: underline;
+}
+.containerFooterAll .containerFooterItem3 {
+  width: 250px;
+}
+.containerFooterAll .containerFooterItem3 h2 {
+  margin: 0;
+}
+.containerFooterAll .containerFooterItem3 ul {
+  list-style: none;
+  color: rgb(42, 42, 42);
+  margin-bottom: 1rem;
+  padding: 0;
+}
+.containerFooterAll .containerFooterItem3 li {
+  margin-bottom: 1rem;
+}
+.containerFooterAll .containerFooterItem3 li:hover {
+  text-decoration: underline;
+}
+.containerFooterAll .containerFooterItem4 h2 {
+  margin: 0;
+}
+.containerFooterAll .containerFooterItem4 p {
+  color: rgb(42, 42, 42);
+}
+.containerFooterAll .containerFooterItem4 input {
+  width: 413px;
+  height: 50px;
+  padding-left: 1rem;
+  border-radius: 50px;
+  border: none;
+  border: 1px solid #E67118;
+}
+
+.containerFooter2 {
+  width: 100%;
+  height: 50px;
+  background-color: rgb(245, 246, 247);
+}
+.containerFooter2 .footercoyright {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  gap: 0.5rem;
+  color: rgb(42, 42, 42);
+}
+.containerFooter2 .footercoyright a {
+  border-left: 1px solid black;
+  padding-left: 0.5rem;
+}
+.containerFooter2 .footercoyright span, .containerFooter2 .footercoyright i {
+  color: #E67118;
+}/*# sourceMappingURL=style.css.map */
